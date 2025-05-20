@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kon.css">
+    <title>Kontakt - Novello</title>
+</head>
+<body>
+    <div class="menu">
+        <h1 class="logo">Kontakt - Novello</h1>
+    </div>
+
+    <div class="content">
+        <h2>Skontaktuj się z nami</h2>
+        <p>Jesteśmy tutaj, aby Ci pomóc! Możesz skontaktować się z nami w dowolny sposób:</p>
+
+        <ul class="contact-list">
+            <li><strong>Telefon:</strong> +48 123 456 789</li>
+            <li><strong>Email:</strong> kontakt@novello.pl</li>
+            <li><strong>Adres:</strong> ul. Przykładowa 123, 00-001 Warszawa</li>
+        </ul>
+
+        <form class="contact-form" action="submit_form.php" method="post">
+            <label for="name">Imię i nazwisko:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Adres email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+    </div>
+
+   
+</body>
+</html>
