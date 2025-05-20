@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Styl dla menu */
+.menu {
+    position: absolute; /* Umieszczenie na banerze */
+    top: 0;
+    left: 0;
+    width: 100%; /* Szerokość na całą stronę */
+    background-color: rgba(0, 0, 0, 0.5); /* Półprzezroczyste tło */
+    padding: 10px 0; /* Odstępy wewnętrzne */
+    text-align: center; /* Wyśrodkowanie zawartości */
+    z-index: 10; /* Aby menu było nad banerem */
+}
+
+/* Logo */
+.menu .logo {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Lista w menu */
+.menu ul {
+    list-style: none; /* Usuń punkty listy */
+    margin: 0;
+    padding: 0;
+}
+
+/* Elementy menu */
+.menu li {
+    display: inline-block; /* Ustaw w jednej linii */
+    margin: 0 15px;
+}
+
+/* Linki w menu */
+.menu a {
+    text-decoration: none; /* Usuń podkreślenie */
+    color: white; /* Kolor linków */
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s; /* Efekt przy najechaniu */
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Jasne podświetlenie */
+    border-radius: 5px;
+}
+
+/* Styl dla obrazu banera */
+.banner {
+    display: block;
+    width: 100%; /* Pełna szerokość */
+    height: auto; /* Automatyczna wysokość, aby zachować proporcje */
+}

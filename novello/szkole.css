@@ -1,0 +1,124 @@
+/* Resetowanie marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 4;
+}
+
+header, .menu {
+    background-color: rgb(172, 62, 117);
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+.intro, .trainings, .course {
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.trainings {
+    margin-top: 20px;
+}
+
+.trainings h2 {
+    font-size: 32px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.trainings p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.course {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.course:hover {
+    transform: translateY(-10px);
+}
+
+.course h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.course p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.course:last-child {
+    margin-bottom: 40px;
+}
+
+.btn {
+    background-color: rgb(56, 55, 56);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
